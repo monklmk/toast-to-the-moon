@@ -1,3 +1,4 @@
+import zero.Color;
 import zero.GameApp;
 import zero.ui.Button;
 import zero.ui.Label;
@@ -40,6 +41,7 @@ public class Main extends GameApp {
     }
 
     @Override public void draw() {
+        background(Color.WHITE);
         toast.draw(this);
 
         textSize(20);

@@ -26,13 +26,6 @@ public class Toast {
 
     public void draw(GameApp app) {
         double half = size / 2.0;
-
-        // Outer crust square
-        app.rect(x - half, y - half, size, size);
-
-        // Inner bread square
-        double innerSize = size * 0.76;
-        double innerHalf = innerSize / 2.0;
-        app.rect(x - innerHalf, y - innerHalf, innerSize, innerSize);
+        app.rect(x-half, y-half, size, size);
     }
 }
