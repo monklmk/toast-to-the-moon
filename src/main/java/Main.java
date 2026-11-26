@@ -46,6 +46,5 @@ public class Main extends GameApp {
 
         textSize(20);
         text("Click the toast!", 20, 30);
-        text("Size: " + (int) toast.getSize() + "px", 20, 60);
     }
 }
